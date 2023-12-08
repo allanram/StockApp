@@ -15,8 +15,8 @@ namespace StockApp.DataAcess.Database
             /// </summary>
 
 
-            internal static string ConexaoSemBanco => @"Data Source=.\SQLEXPRESS;User ID=sa;Password=sql2022; Trusted_Connection=False; TrustServerCertificate=True";
-           internal static string ConexaoComBanco => @"Data Source=.\SQLEXPRESS;Initial Catalog=STOCKELETRO;User ID=sa;Password=sql2022; Trusted_Connection=False; TrustServerCertificate=True";
+            internal static string ConexaoSemBanco => @"server=CEPEAS21104174\SQLEXPRESS;Integrated Security=True;User ID=sa;Password=sql2022; Trusted_Connection=False; TrustServerCertificate=True";
+           internal static string ConexaoComBanco => @"server=CEPEAS21104174\SQLEXPRESS;Integrated Security=True;Initial Catalog=StockApp;User ID=sa;Password=sql2022; Trusted_Connection=False; TrustServerCertificate=True";
 
 
 
